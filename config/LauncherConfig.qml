@@ -39,6 +39,14 @@ JsonObject {
             dangerous: false
         },
         {
+            name: "Claude Code",
+            icon: "terminal",
+            description: "Launch Claude Code AI assistant with a prompt",
+            command: ["autocomplete", "claudecode"],
+            enabled: true,
+            dangerous: false
+        },
+        {
             name: "Scheme",
             icon: "palette",
             description: "Change the current colour scheme",
